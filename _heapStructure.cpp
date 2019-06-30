@@ -125,7 +125,7 @@ int main(){
 	Message m2 = createMessage(2, "Hei, I have something important to tell you.");
 	Message m3 = createMessage(3, "25 calls missed");
 	Message m4 = createMessage(9, "Call me right now");
-	Message m5 = createMessage(5, "Can you come over? It s kind of urgent");
+	Message m5 = createMessage(5, "It s kind of urgent");
 
 	Heap heap;
 	heap.dim = 5;

@@ -879,11 +879,11 @@ int main() {
 
 	printf("\n\n ------ CIRCULAR LINKED LIST -------\n\n");
 
-    Client c1 = createClient(1, "Neacsu Antoniu", 21, 978);
+    Client c1 = createClient(1, "Popescu Tina", 21, 978);
     Client c2 = createClient(2, "Toader Maria", 19, 234);
-    Client c3 = createClient(3, "Nila Goergiana", 20, 455);
-    Client c4 = createClient(4, "Neacsu Goergiana", 21, 512);
-    Client c5 = createClient(5, "Miu Lidia", 20, 541);
+    Client c3 = createClient(3, "Ionescu Mara", 20, 455);
+    Client c4 = createClient(4, "Dumitru Laura", 21, 512);
+    Client c5 = createClient(5, "Popescu Mihai", 20, 541);
 
     CNode* head = NULL;
     head = add_begging(head, c1);
